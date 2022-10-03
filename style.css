@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(32, 32, 32);
+}
+#canvas1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+    max-width: 100%;
+    max-height: 100%;
+    background: linear-gradient(to bottom, red 16.6666666667%, orange 16.6666666667% 33.3333333334% , yellow 33.3333333334% 50.0000000001%, green 50.0000000001% 66.6666666668%, blue 66.6666666668% 83.3333333335%, violet 83.3333333335% 100% );
+    /* background: white; */
+}
